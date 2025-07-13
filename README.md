@@ -2,7 +2,7 @@
 
 Clinexa is a full-stack web application designed to streamline clinic operations for both doctors and receptionists. It allows efficient appointment scheduling, patient management, and medical record handling with user authentication and role-based access.
 
-![Clinexa Logo](./client/public/logo.png) <!-- Add path or remove if not applicable -->
+![Clinexa Logo](./Frontend//public/logo.png) <!-- Add path or remove if not applicable -->
 
 ## 🚀 Features
 
@@ -24,7 +24,6 @@ Clinexa is a full-stack web application designed to streamline clinic operations
 
 **Frontend:**
 - React.js
-- Tailwind CSS
 - React Router DOM
 - Axios
 - Toastify
@@ -32,21 +31,13 @@ Clinexa is a full-stack web application designed to streamline clinic operations
 **Backend:**
 - Node.js
 - Express.js
-- PostgreSQL (with pg package)
+- MongoDB Atlas 
 - JSON Web Token (JWT)
 - Bcrypt for hashing passwords
 
 **Others:**
 - Nodemon (Dev Dependency)
 - Dotenv
-
-## 🖥️ Screenshots
-
-> _Add screenshots here after building your UI_  
-> Example:
-> - Doctor Dashboard  
-> - Appointment Form  
-> - Token Generation by Receptionist  
 
 ## 📂 Folder Structure
 
