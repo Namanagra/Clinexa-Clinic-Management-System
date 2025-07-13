@@ -99,8 +99,6 @@ Backend runs on `http://localhost:4000`
 
 ---
 
-```
-
 ## 👥 User Roles
 
 - **Admin (Doctor)**:
