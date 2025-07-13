@@ -1,0 +1,46 @@
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore node_modules
+node_modules/
+Backend/node_modules
+Frontend/node_modules
+Dashboard/node_modules
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Backend/config/config.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore package-lock and yarn.lock files
+package-lock.json
+yarn.lock
+Backend/package-lock.json
+
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Backend specific ignores
+
+# Frontend specific ignores
+/frontend/.vite/
+
+# Dashboard specific ignores
+/dashboard/.vite/
+
